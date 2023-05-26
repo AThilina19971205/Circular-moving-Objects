@@ -1,0 +1,26 @@
+#sun{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 350px;
+    left: 850px;
+    box-shadow: 0 0 100px 10px red;
+    animation-name: shadow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes shadow{
+    0%{
+        background-color: rgb(243, 103, 47);
+        box-shadow: 0 0 100px 10px rgb(243, 103, 47);
+    }
+    50%{
+        background-color: rgb(230, 243, 47);
+        box-shadow: 0 0 100px 10px rgb(230, 243, 47);
+    }
+}
+body{
+    background-color: black;
+}
